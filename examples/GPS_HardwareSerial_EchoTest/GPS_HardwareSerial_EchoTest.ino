@@ -15,6 +15,19 @@
 // and help support open source hardware & software! -ada
 
 
+// If you're a using a Huzzah32-ESP32 Feather board and
+// GPS module with combination with: 
+//    a) Stackable headers on the feather board, or a
+//    b) 'Doubler' or 'Tripler' Prototyping Add-on,
+//
+// replace the code snippet defining 'GPSSerial' with
+// one of the following options (start with 'a'):
+//
+//   #define GPSSerial Serial2    // a) 'Serial2' already defined
+//             or
+//   HardwareSerial GPSSerial(2); // b) 'Serial2' is undefined
+
+
 // what's the name of the hardware serial port?
 #define GPSSerial Serial1
 
