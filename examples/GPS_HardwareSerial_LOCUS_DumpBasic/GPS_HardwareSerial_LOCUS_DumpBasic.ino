@@ -15,6 +15,8 @@
 // Pick one up today at the Adafruit electronics shop
 // and help support open source hardware & software! -ada
 
+// See 'GPS_HardwareSerial_EchoTest.ino' for comments
+// regarding usage with a Huzzah32-ESP32 Feather board
 
 #include <Adafruit_GPS.h>
 
